@@ -4,15 +4,16 @@ import "./styles.css";
 export default function App() {
   return (
     <div className="App">
-      <SearchUser/>
+      <SearchUser />
     </div>
   );
 }
 
-function SearchUser(){
+function SearchUser() {
   return (
     <div>
-      <input/>
-  </div>
-  )
+      <h1>GitHub User</h1>
+      <input />
+    </div>
+  );
 }
